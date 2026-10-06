@@ -1,9 +1,14 @@
 {
   "name": "firefly",
   "displayName": "Firefly",
-  "description": "VSCode Dark Modern pushed down to charcoal, with warm sand and amber syntax colors.",
-  "version": "0.6.1",
+  "description": "A warm theme in dark, night and light: red keywords, green strings, yellow types and orange functions.",
+  "version": "0.9.1",
   "publisher": "LocalAlbino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LocalAlbino/firefly"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -16,7 +21,20 @@
         "label": "Firefly",
         "uiTheme": "vs-dark",
         "path": "./themes/firefly-color-theme.json"
+      },
+      {
+        "label": "Firefly Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/firefly-night-color-theme.json"
+      },
+      {
+        "label": "Firefly Light",
+        "uiTheme": "vs",
+        "path": "./themes/firefly-light-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "node scripts/build-variants.js"
   }
 }

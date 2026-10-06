@@ -1,6 +1,12 @@
 # Firefly
 
-VSCode Dark Modern pushed down to charcoal, with warm sand and amber syntax colors.
+A warm theme in dark, night and light: red keywords, green strings, yellow types and orange functions.
+
+- **Firefly**: warm gray-brown dark
+- **Firefly Night**: darker surfaces and softened syntax for low-light rooms
+- **Firefly Light**: warm paper background with deepened syntax colors
+
+Night and Light are generated from the dark theme; after editing `themes/firefly-color-theme.json`, run `npm run build`.
 
 ## Status
 

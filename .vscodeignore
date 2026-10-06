@@ -3,3 +3,4 @@
 *.icls
 *.vsix
 node_modules/
+scripts/
