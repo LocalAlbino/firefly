@@ -2,8 +2,9 @@
   "name": "firefly",
   "displayName": "Firefly",
   "description": "A warm theme in dark, night and light: red keywords, green strings, yellow types and orange functions.",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "publisher": "LocalAlbino",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
